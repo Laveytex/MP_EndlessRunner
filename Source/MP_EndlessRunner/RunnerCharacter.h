@@ -32,10 +32,7 @@ public:
 protected:
 	void MoveRight(float value);
 
-	class  UCameraComponent* GetCharViuwCamera() const
-	{
-		return CharViewCamera;
-	};
+	UCameraComponent* GetCharViuwCamera();
 
 	void RestartLevel();
 
@@ -48,7 +45,7 @@ private:
 	float zPosition;
 	FVector tempPos = FVector();
 
-	bool CanMoove;
+	bool CanMove;
 	
 	
 };

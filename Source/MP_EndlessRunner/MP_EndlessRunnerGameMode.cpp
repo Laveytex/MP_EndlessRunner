@@ -1,7 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "MP_EndlessRunnerGameMode.h"
-#include "MP_EndlessRunnerCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 AMP_EndlessRunnerGameMode::AMP_EndlessRunnerGameMode()
